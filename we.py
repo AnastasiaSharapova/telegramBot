@@ -5,7 +5,7 @@ from aiogram.dispatcher import Dispatcher
 from aiogram.utils import executor
 
 owm = '7b659fb4cce20f478cd700bcffcfa5d3'
-bot = Bot(token='5395672939:AAEqRuFC42hoqZJQFg_xijgVwqrRLPZv7t0')
+bot = Bot(token='TOKEN')
 dp = Dispatcher(bot)
 
 @dp.message_handler(commands=['start'])
